@@ -1,0 +1,9 @@
+[device]
+# mount point	fstype		device			format option	mount option
+/efs		ext4		/dev/block/mmcblk0p1	default		default
+/recovery	emmc		/dev/block/mmcblk0p2	default		default
+/boot		emmc		/dev/block/mmcblk0p3	default		default
+/system		ext4		/dev/block/mmcblk0p4	default		default
+/cache		ext4		/dev/block/mmcblk0p5	default		default
+/data		ext4		/dev/block/mmcblk0p8	default		default		length=-16384
+
